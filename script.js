@@ -1,26 +1,3 @@
-// function newCard() {
-//   const container = document.querySelector(".container");
-//   let res = fetch("text.json")
-//     .then((res) => {
-//       return res.json();
-//     })
-//     .then((data) => {
-//       let card = document.createElement("div");
-//       let img = document.createElement("img");
-//       let price = document.createElement("span");
-//       let nameOfProduct = document.createElement("h2");
-//       let description = document.createElement("p");
-//       console.log(data);
-
-//       data.forEach((e) => {
-//         img.src = e.img;
-//       });
-//       container.appendChild(card);
-//       card.appendChild(img);
-//     });
-// }
-// newCard();
-
 function newCard() {
   const container = document.querySelector(".container");
   const wrapper = document.querySelector(".wrapper");
